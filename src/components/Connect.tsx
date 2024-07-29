@@ -70,7 +70,7 @@ export const Connect = () => {
           <img src={GmailLogo} alt="Gmail logo" className="h-10 w-auto" />
         </a>
         <a
-          href="https://drive.google.com/uc?export=download&id=1jFgz8THc3k28PegTVKcpkGRzYu_fvFAW"
+          href="https://drive.google.com/uc?export=download&id=1bcc_3lHr0rV8QVue7pLeyd5P99V1pkhV"
           download
           className="bg-gray-600 hover:bg-cyan-500 text-white py-2 px-4 rounded-xl text-xl"
         >
