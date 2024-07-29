@@ -1,0 +1,14 @@
+/* custom.css */
+
+.3d-card {
+  perspective: 1000px;
+}
+
+.3d-card-content {
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.3d-card:hover .3d-card-content {
+  transform: rotateY(10deg) rotateX(10deg);
+}

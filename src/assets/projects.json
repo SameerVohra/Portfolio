@@ -1,0 +1,60 @@
+{
+    "projects": [
+        {
+            "name": "LetsCode",
+            "desc": "A website with a functional C++ compiler that allows you to practice coding questions and submit your own, along with the ability to see the results in real time and a community chat option with a profanity filter",
+            "gitLink": "https://github.com/SameerVohra/LetsCode-new",
+            "liveLink": "https://lets-code-new.vercel.app/",
+            "Tech Stack": "REACT, JAVASCRIPT, MONGODB, EXPRESSJS, TAILWIND"
+        },
+        {
+            "name": "SketchSphere",
+            "desc": "A multiuser Sketchboarding application where users can join a project using ProjectId and ProjectKey",
+            "gitLink": "https://github.com/SameerVohra/SketchSphere",
+            "liveLink": "https://sketchsphere.vercel.app/",
+            "Tech Stack": "REACT, TYPESCRIPT, MONGODB, TAILWIND"
+        },
+        {
+            "name": "Stock Analysis Website",
+            "desc": "A stock analysis website I created that offers real-time data for equities listed on the BSE and NSE by using web scraping.",
+            "gitLink": "https://github.com/SameerVohra/StockMarketAnalysis",
+            "liveLink": "https://stock-market-analysis-gamma.vercel.app/",
+            "Tech Stack":"REACT, TYPESCRIPT, WEB SCRAPPING, TAILWIND"
+        },
+        {
+            "name": "Sorting Visualizer",
+            "desc": "A sorting visualizer that helps in visualizing sorting algorithms using bar graph and different colors. It has 5 different sorting algorithms: BUBBLE SORT, SELECTION SORT, INSERTION SORT, MERGE SORT, QUICK SORT",
+            "gitLink": "https://github.com/SameerVohra/sortingVisualizer",
+            "liveLink": "https://sorting-visualizer-lyart-delta.vercel.app/",
+            "Tech Stack": "REACT, DSA, TYPESCRIPT, TAILWIND"
+        },
+        {
+            "name": "Notes Taking App",
+            "desc": "A notes taking app with update and delete features. It also has pagination with a maximum number of notes per page being 6",
+            "gitLink": "https://github.com/SameerVohra/NotesTaking",
+            "liveLink": "https://noted-pi.vercel.app/",
+            "Tech Stack": "REACT, JAVASCRIPT, TAILWIND, MONGODB"
+        },
+        {
+            "name": "Morse Code Generator and Decoder",
+            "desc": "A website that uses REST API to generate and decode Morse code",
+            "gitLink": "https://github.com/SameerVohra/MorseCodeGeneratorAndDecoder",
+            "liveLink": "https://morse-code-generator-and-decoder-sigma.vercel.app/",
+            "Tech Stack": "REACT, TYPESCRIPT, RESTAPIs, TAILWIND"
+        },
+        {
+            "name": "Git User Search",
+            "desc": "A website that helps in fetching user data from GitHub's REST API and displaying the data",
+            "gitLink": "https://github.com/SameerVohra/GitUserSearch",
+            "liveLink": "https://gitsearchuser.vercel.app/",
+            "Tech Stack": "JAVASCRIPT, EXPRESSJS, RESTAPIs"
+        },
+        {
+            "name": "Librix",
+            "desc": "A library management system using QR-Code. It uses QR-Code for user verification, book issue, return, and all",
+            "gitLink": "https://github.com/SameerVohra/librix",
+            "liveLink": "https://librix.vercel.app/",
+            "Tech Stack": "REACT, MUI, TAILWIND, JAVASCRIPT"
+        }
+    ]
+}
