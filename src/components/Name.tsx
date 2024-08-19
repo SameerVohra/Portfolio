@@ -20,8 +20,8 @@ export const Name = () => {
       <h1 className="text-3xl md:text-5xl text-gray-300 font-mono animate-getRight">
         Sameer Vohra
       </h1>
-      <p className="text-sm md:text-md text-white font animate-getRight">
-        FRONTEND DEVELOPER
+      <p className="text-md md:text-lg text-gray-400 font animate-getRight">
+        FULLSTACK DEVELOPER
       </p>
       <div className="flex flex-row gap-2 w-full items-center">
         <div className="bg-cyan-400 h-2 rounded-full w-1/12"></div>
