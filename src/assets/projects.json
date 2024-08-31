@@ -55,6 +55,27 @@
             "gitLink": "https://github.com/SameerVohra/librix",
             "liveLink": "https://librix.vercel.app/",
             "Tech Stack": "REACT, MUI, TAILWIND, JAVASCRIPT"
+        },
+        {
+            "name": "OS Scheduling algorithms visualizer",
+            "desc": "The OS Scheduling Algorithms Visualizer showcases FCFS, SJF, SRJF, and RR scheduling techniques, allowing users to interactively explore and compare process management and performance.",
+            "gitLink": "https://github.com/SameerVohra/OS-Algorithms-visualizer",
+            "liveLink": "https://os-algorithms-visualizer.vercel.app/",
+            "Tech Stack": "REACT, TYPESCRIPT, OS, TAILWIND"
+        },
+        {
+            "name": "OS Scheduling algorithms visualizer using C++",
+            "desc": "Developed an OS process scheduling visualizer using C++ that illustrates and compares FCFS, SJF, and Round Robin algorithms. The tool offers detailed output to enhance understanding of process scheduling concepts and performance metrics.",
+            "gitLink": "https://github.com/SameerVohra/Os_Scheduling_Algo_Using_CPP",
+            "liveLink": "https://github.com/SameerVohra/Os_Scheduling_Algo_Using_CPP",
+            "Tech Stack": "C++, DSA, OS"
+        },
+        {
+            "name": "QuickNest",
+            "desc": "This simple To-Do app allows users to create tasks with defined priorities—low, normal, high, or critical. Tasks can be added, viewed, and categorized based on their urgency, providing an organized and intuitive way to manage daily responsibilities.",
+            "gitLink": "https://github.com/SameerVohra/QuickNest",
+            "liveLink": "https://quick-nest.vercel.app/",
+            "Tech Stack": "REACT, TYPESCRIPT, TAILWIND"
         }
     ]
 }
