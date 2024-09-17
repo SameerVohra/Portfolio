@@ -78,7 +78,7 @@ export const Connect = () => {
           <img src={LeetcodeLogo} alt="Leetcode logo" className="h-10 w-auto" />
         </a>
         <a
-          href="https://drive.google.com/uc?export=download&id=1ffIG7UJnrrNqJ1aUHdQ9kVw0K6AqYqGk"
+          href="https://drive.google.com/uc?export=download&id=15i_jsyecrr5EjPqu7vydsVoDEiWbY9LR"
           download
           className="bg-gray-600 hover:bg-cyan-500 text-white py-2 px-4 rounded-xl text-xl"
         >
