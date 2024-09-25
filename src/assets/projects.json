@@ -76,6 +76,27 @@
             "gitLink": "https://github.com/SameerVohra/QuickNest",
             "liveLink": "https://quick-nest.vercel.app/",
             "Tech Stack": "REACT, TYPESCRIPT, TAILWIND"
+        },
+        {
+            "name": "TrueVoices",
+            "desc": "TrueVoices is a SaaS platform that enables businesses to collect authentic customer reviews and showcase them on their websites in customizable formats. It helps companies build trust and credibility by displaying real user testimonials, boosting engagement and conversions.",
+            "gitLink": "https://github.com/SameerVohra/TrueVoices",
+            "liveLink": "https://truevoices.vercel.app/",
+            "Tech Stack": "REACT, TYPESCRIPT, TAILWIND, MUI"
+        },
+        {
+            "name": "MapRevo",
+            "desc": "MapRevo is a location-based review platform where users can explore, rate, and share feedback on various places. It features an interactive map for selecting locations and submitting reviews, allowing businesses and individuals to gather valuable insights and enhance decision-making.",
+            "gitLink": "https://github.com/SameerVohra/MapRevo",
+            "liveLink": "https://maprevo.vercel.app/",
+            "Tech Stack": "REACT, JAVASCRIPT, TAILWIND, EXPRESS"
+        },
+        {
+            "name": "BudgetLens",
+            "desc": "Budget Lens is a financial planning tool designed to help users manage their budgets efficiently. It allows individuals and businesses to track expenses, set financial goals, and gain insights through intuitive dashboards, making budgeting simple and effective.",
+            "gitLink": "https://github.com/SameerVohra/BudgetLens",
+            "liveLink": "https://budgetlens.vercel.app/",
+            "Tech Stack": "REACT, TYPESCRIPT, TAILWIND, EXPRESS, CHART.JS"
         }
     ]
 }
