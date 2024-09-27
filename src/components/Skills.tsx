@@ -10,64 +10,68 @@ import git from "../assets/Git.png";
 import linux from "../assets/Linux.png";
 import node from "../assets/Node.js.png";
 
-export const Skills = () => {
+function Skills() {
   return (
-    <>
-      <h1 className=" hover:underline text-center text-4xl md:text-5xl font-bold m-12  text-gray-500">
-        SKILLS
-      </h1>{" "}
-      <div className="w-full  flex flex-wrap justify-between items-center gap-6 md:gap-8 lg:gap-10 px-2 md:px-8 lg:px-12 py-4">
-        <Container
-          text="TYPESCRIPT"
-          image={ts}
-          className="hover:bg-gradient-to-br hover:from-blue-700 hover:via-cyan-950 hover:to-blue-800 ease-in-out"
-        />
-        <Container
-          text="JAVASCRIPT"
-          image={js}
-          className="hover:bg-gradient-to-br hover:from-yellow-800 hover:via-yellow-500 hover:to-yellow-200 ease-in-out"
-        />
-        <Container
-          text="REACT"
-          image={react}
-          className="hover:bg-gradient-to-br hover:from-cyan-950 hover:via-blue-600  hover:to-blue-800 ease-in-out "
-        />
-        <Container
-          text="NODEJS"
-          image={node}
-          className="hover:bg-gradient-to-br hover:from-emerald-900 hover:via-green-600 hover:to-emerald-400 ease-in-out"
-        />
-        <Container
-          text="C++"
-          image={cpp}
-          className="hover:bg-gradient-to-br hover:from-blue-800 hover:via-blue-600 hover:to-blue-400 ease-in-out"
-        />
-        <Container
-          text="PYTHON"
-          image={py}
-          className="hover:bg-gradient-to-br hover:from-blue-800 hover:via-green-300 hover:to-yellow-400 ease-in-out"
-        />
-        <Container
-          text="TAILWIND"
-          image={tailwind}
-          className="hover:bg-gradient-to-br hover:from-cyan-950 hover:via-sky-600 hover:to-sky-400 ease-in-out"
-        />
-        <Container
-          text="HTML5"
-          image={html}
-          className="hover:bg-gradient-to-br hover:from-orange-600 hover:via-orange-400 hover:to-white ease-in-out"
-        />
-        <Container
-          text="GIT/GITHUB"
-          image={git}
-          className="hover:bg-gradient-to-br hover:from-orange-900 hover:to-orange-600 ease-in-out"
-        />{" "}
-        <Container
-          text="LINUX"
-          image={linux}
-          className="hover:bg-gradient-to-br hover:from-black hover:via-yellow-600 hover:to-white ease-in-out"
-        />
+    <div className="bg-gray-800 min-h-screen flex flex-col items-center">
+      <header className="w-full flex justify-between items-center bg-gray-900 p-4 border-b border-gray-700">
+        <h1 className="text-3xl font-bold text-white text-center">Skills</h1>
+      </header>
+      <div className="w-full flex-grow flex flex-row">
+        <main className="flex-grow p-4 grid grid-cols-2 gap-6">
+          <Container
+            text="TYPESCRIPT"
+            image={ts}
+            className="hover:bg-blue-800 transition duration-300 ease-in-out rounded-lg shadow-lg"
+          />
+          <Container
+            text="JAVASCRIPT"
+            image={js}
+            className="hover:bg-yellow-400 transition duration-300 ease-in-out rounded-lg shadow-lg"
+          />
+          <Container
+            text="REACT"
+            image={react}
+            className="hover:bg-blue-600 transition duration-300 ease-in-out rounded-lg shadow-lg"
+          />
+          <Container
+            text="NODEJS"
+            image={node}
+            className="hover:bg-green-600 transition duration-300 ease-in-out rounded-lg shadow-lg"
+          />
+          <Container
+            text="C++"
+            image={cpp}
+            className="hover:bg-blue-500 transition duration-300 ease-in-out rounded-lg shadow-lg"
+          />
+          <Container
+            text="PYTHON"
+            image={py}
+            className="hover:bg-green-400 transition duration-300 ease-in-out rounded-lg shadow-lg"
+          />
+          <Container
+            text="TAILWIND"
+            image={tailwind}
+            className="hover:bg-sky-500 transition duration-300 ease-in-out rounded-lg shadow-lg"
+          />
+          <Container
+            text="HTML5"
+            image={html}
+            className="hover:bg-orange-500 transition duration-300 ease-in-out rounded-lg shadow-lg"
+          />
+          <Container
+            text="GIT/GITHUB"
+            image={git}
+            className="hover:bg-orange-700 transition duration-300 ease-in-out rounded-lg shadow-lg"
+          />
+          <Container
+            text="LINUX"
+            image={linux}
+            className="hover:bg-black transition duration-300 ease-in-out rounded-lg shadow-lg"
+          />
+        </main>
       </div>
-    </>
+    </div>
   );
-};
+}
+
+export default Skills;

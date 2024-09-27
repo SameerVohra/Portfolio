@@ -1,9 +1,9 @@
 import "./App.css";
-import { MainPage } from "./components/Mainpage";
+import MainPage from "./components/MainPage";
 
 function App() {
   return (
-    <div className="min-h-screen min-w-full bg-gray-800">
+    <div className="min-h-fit min-w-full bg-gray-900">
       <MainPage />
     </div>
   );

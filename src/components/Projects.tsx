@@ -1,6 +1,6 @@
-import { ProjectCard } from "./ProjectCard";
+import { useState, useEffect } from 'react';
 import projectsData from "../assets/projects.json";
-import { useState, useEffect } from "react";
+import ProjectCard from './ProjectCard';
 
 interface Project {
   name: string;
@@ -10,7 +10,7 @@ interface Project {
   'Tech Stack': string;
 }
 
-export const Projects = () => {
+function Projects() {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
@@ -22,24 +22,29 @@ export const Projects = () => {
   }, []);
 
   return (
-    <>
-      <h1 className="hover:underline text-center text-4xl md:text-5xl font-bold m-12 text-gray-500">
-        PROJECTS
+    <div className="min-h-screen flex flex-col bg-gray-900 p-8">
+      {/* Title */}
+      <h1 className='text-white text-5xl text-center font-bold font-mono mb-8'>
+        Projects
       </h1>
-      <div className="flex justify-center flex-col items-center">
-        {projects.map((project, index) => (
-          <ProjectCard
-            key={index}
-            projectName={project.name}
-            projectDesc={project.desc}
-            gitLink={project.gitLink}
-            liveLink={project.liveLink}
-            techStack={project['Tech Stack']}
-          />
-        ))}
+
+      {/* Scrollable Project List */}
+      <div className="flex-grow w-full overflow-y-auto px-4 border-t border-gray-700">
+        <div className="space-y-6">
+          {projects.map((project, index) => (
+            <ProjectCard
+              key={index}
+              projectName={project.name}
+              projectDesc={project.desc}
+              gitLink={project.gitLink}
+              liveLink={project.liveLink}
+              techStack={project['Tech Stack']}
+            />
+          ))}
+        </div>
       </div>
-    </>
+    </div>
   );
-};
+}
 
 export default Projects;

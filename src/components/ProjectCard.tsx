@@ -1,7 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
-interface ProjectCardProps {
+interface Projects {
   projectName: string;
   gitLink: string;
   liveLink: string;
@@ -10,46 +7,49 @@ interface ProjectCardProps {
   techStack: string;
 }
 
-export const ProjectCard: React.FC<ProjectCardProps> = ({
+function ProjectCard({
   projectName,
   gitLink,
   liveLink,
   projectDesc,
   className,
   techStack,
-}) => {
+}: Projects) {
   return (
-    <div
-      className={`${className} border border-gray-700 rounded-lg p-6 shadow-2xl shadow-gray-600 bg-gray-800 text-white transition-transform transform hover:scale-105 hover:shadow-2xl hover:bg-gradient-to-r hover:from-black hover:via-cyan-900 hover:to-sky-600 w-full mx-auto my-4 max-w-screen-lg`}
-    >
-      <h1 className="text-3xl lg:text-4xl font-bold font-mono">
-        {projectName}
-      </h1>
-      <h3 className="font-extrabold text-xl mb-1 ">
-        TECH STACK: <span className="font-thin font-mono">{techStack}</span>{" "}
-      </h3>
-      <div className="text-gray-400 text-sm mb-4 flex items-center space-x-4">
-        <Link
-          to={gitLink}
-          className="text-blue-400 hover:text-blue-500 transition-colors duration-300"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GITHUB
-        </Link>
-        <span>|</span>
-        <Link
-          to={liveLink}
-          className="text-blue-400 hover:text-blue-500 transition-colors duration-300"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LIVE LINK
-        </Link>
+    <div className={`bg-gray-900 text-white rounded-lg shadow-lg p-6 ${className} border border-gray-700 flex flex-col`}>
+      {/* Project Name */}
+      <h1 className="text-2xl font-bold mb-4 text-blue-300">{projectName}</h1>
+
+      {/* Project Description */}
+      <p className="mb-6 text-gray-400">{projectDesc}</p>
+
+      {/* Tech Stack */}
+      <div className="mb-4">
+        <h2 className="text-sm font-semibold uppercase text-gray-500">Tech Stack</h2>
+        <p className="text-gray-400">{techStack}</p>
       </div>
-      <p className="break-words text-base lg:text-lg text-gray-200 mb-4">
-        {projectDesc}
-      </p>
+
+      {/* Buttons for GitHub and Live Demo */}
+      <div className="flex space-x-4 mt-4">
+        <a
+          href={gitLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition"
+        >
+          GitHub
+        </a>
+        <a
+          href={liveLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-500 transition"
+        >
+          Live Demo
+        </a>
+      </div>
     </div>
   );
-};
+}
+
+export default ProjectCard;
