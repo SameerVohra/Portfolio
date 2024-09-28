@@ -13,7 +13,7 @@ function Explore() {
 
   return (
     <>
-      <div className='border-gray-800 border-1 w-60 flex flex-col p-2'>
+      <div className='border-gray-800 border-1 w-60 lg:flex lg:flex-col p-2 hidden'>
         <h1 className='text-white text-md'>EXPLORER</h1>
         <div className="mt-2 flex items-start cursor-pointer flex-col">
           <h2 className="text-white text-sm" onClick={() => setShow(!show)}>
