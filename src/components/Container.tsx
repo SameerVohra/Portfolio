@@ -1,16 +1,14 @@
-import React from 'react';
-
-interface ContainerProps {
+type ContainerProps = {
   text: string;
   image: string;
-  className?: string;
-}
+  className: string;
+};
 
-export const Container: React.FC<ContainerProps> = ({ text, image, className }) => {
+export function Container({ text, image, className }: ContainerProps) {
   return (
-    <div className={`bg-gray-900 p-4 rounded-lg shadow-md transition-all duration-300 ${className}`}>
-      <img src={image} alt={text} className="h-16 w-16 mx-auto mb-2" />
-      <h3 className="text-center text-xl font-semibold text-gray-200">{text}</h3>
+    <div className={`flex items-center justify-start p-2 ${className}`}>
+      <img src={image} alt={text} className="w-8 h-8 mr-2" />
+      <span className="text-white font-semibold">{text}</span>
     </div>
   );
-};
+}

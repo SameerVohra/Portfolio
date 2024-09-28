@@ -11,64 +11,53 @@ import linux from "../assets/Linux.png";
 import node from "../assets/Node.js.png";
 
 function Skills() {
+  const skills = [
+    { name: "TYPESCRIPT", image: ts },
+    { name: "JAVASCRIPT", image: js },
+    { name: "REACT", image: react },
+    { name: "NODEJS", image: node },
+    { name: "C++", image: cpp },
+    { name: "PYTHON", image: py },
+    { name: "TAILWIND", image: tailwind },
+    { name: "HTML5", image: html },
+    { name: "GIT/GITHUB", image: git },
+    { name: "LINUX", image: linux },
+  ];
+
   return (
-    <div className="bg-gray-800 min-h-screen flex flex-col items-center">
-      <header className="w-full flex justify-between items-center bg-gray-900 p-4 border-b border-gray-700">
-        <h1 className="text-3xl font-bold text-white text-center">Skills</h1>
-      </header>
-      <div className="w-full flex-grow flex flex-row">
-        <main className="flex-grow p-4 grid grid-cols-2 gap-6">
-          <Container
-            text="TYPESCRIPT"
-            image={ts}
-            className="hover:bg-blue-800 transition duration-300 ease-in-out rounded-lg shadow-lg"
-          />
-          <Container
-            text="JAVASCRIPT"
-            image={js}
-            className="hover:bg-yellow-400 transition duration-300 ease-in-out rounded-lg shadow-lg"
-          />
-          <Container
-            text="REACT"
-            image={react}
-            className="hover:bg-blue-600 transition duration-300 ease-in-out rounded-lg shadow-lg"
-          />
-          <Container
-            text="NODEJS"
-            image={node}
-            className="hover:bg-green-600 transition duration-300 ease-in-out rounded-lg shadow-lg"
-          />
-          <Container
-            text="C++"
-            image={cpp}
-            className="hover:bg-blue-500 transition duration-300 ease-in-out rounded-lg shadow-lg"
-          />
-          <Container
-            text="PYTHON"
-            image={py}
-            className="hover:bg-green-400 transition duration-300 ease-in-out rounded-lg shadow-lg"
-          />
-          <Container
-            text="TAILWIND"
-            image={tailwind}
-            className="hover:bg-sky-500 transition duration-300 ease-in-out rounded-lg shadow-lg"
-          />
-          <Container
-            text="HTML5"
-            image={html}
-            className="hover:bg-orange-500 transition duration-300 ease-in-out rounded-lg shadow-lg"
-          />
-          <Container
-            text="GIT/GITHUB"
-            image={git}
-            className="hover:bg-orange-700 transition duration-300 ease-in-out rounded-lg shadow-lg"
-          />
-          <Container
-            text="LINUX"
-            image={linux}
-            className="hover:bg-black transition duration-300 ease-in-out rounded-lg shadow-lg"
-          />
-        </main>
+    <div className="bg-gradient-to-br from-gray-900 to-gray-800 min-h-screen p-6 font-mono text-white flex flex-col md:flex-row">
+      <div className="md:w-1/2 lg:w-2/5">
+        <header className="border-b border-gray-700 pb-2 mb-4">
+          <h1 className="text-4xl font-bold text-center">Skills</h1>
+        </header>
+        <pre className="overflow-x-auto mb-6">
+          {`{
+  "skills": [
+    ${skills.map(skill => `
+      {
+        "name": "${skill.name}",
+        "image": "${skill.image}"
+      }`).join(",\n    ")}
+  ]
+}`}
+        </pre>
+      </div>
+      <div className="md:w-1/2 lg:w-3/5 grid grid-cols-2 gap-4">
+        {skills.map(skill => (
+          <div
+            key={skill.name}
+            className="relative group flex items-center justify-center p-4 bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:scale-105"
+          >
+            <img
+              src={skill.image}
+              alt={skill.name}
+              className="w-16 h-16 transition-transform duration-300 transform group-hover:rotate-12"
+            />
+            <div className="absolute inset-0 bg-gray-700 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <h2 className="text-2xl font-semibold">{skill.name}</h2>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
