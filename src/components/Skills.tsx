@@ -29,7 +29,7 @@ function Skills() {
         <header className="border-b border-gray-700 pb-2 mb-4">
           <h1 className="text-4xl font-bold text-center">Skills</h1>
         </header>
-        <pre className="overflow-x-auto mb-6">
+        <pre className="overflow-x-auto mb-6 text-sm">
           {`{
   "skills": [
     ${skills.map(skill => `
@@ -41,11 +41,11 @@ function Skills() {
 }`}
         </pre>
       </div>
-      <div className="md:w-1/2 lg:w-3/5 grid grid-cols-2 gap-4">
+      <div className="md:w-1/2 lg:w-3/5 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
         {skills.map(skill => (
           <div
             key={skill.name}
-            className="relative group flex items-center justify-center p-4 bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:scale-105"
+            className="relative group flex items-center justify-center p-6 bg-gray-800 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer transform hover:scale-105"
           >
             <img
               src={skill.image}
@@ -53,7 +53,7 @@ function Skills() {
               className="w-16 h-16 transition-transform duration-300 transform group-hover:rotate-12"
             />
             <div className="absolute inset-0 bg-gray-700 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-              <h2 className="text-2xl font-semibold">{skill.name}</h2>
+              <h2 className="text-lg md:text-2xl font-semibold">{skill.name}</h2>
             </div>
           </div>
         ))}
