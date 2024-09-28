@@ -1,4 +1,3 @@
-import { Container } from "./Container";
 import ts from "../assets/ts.png";
 import js from "../assets/js.png";
 import react from "../assets/react.png";

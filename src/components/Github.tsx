@@ -22,19 +22,16 @@ interface Repo {
 function Github() {
   const [gitData, setGitData] = useState<Git | null>(null);
   const [repos, setRepos] = useState<Repo[]>([]);
-  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     // Fetch GitHub profile data
     axios.get('https://api.github.com/users/SameerVohra')
       .then(res => setGitData(res.data))
-      .catch(err => setError("Error fetching GitHub profile. Please try again later."));
-
+      
     // Fetch GitHub repositories
     axios.get('https://api.github.com/users/SameerVohra/repos')
       .then(res => setRepos(res.data))
-      .catch(err => setError("Error fetching GitHub repositories. Please try again later."));
-  }, []);
+        }, []);
 
   // Helper function to format date strings
   const formatDate = (dateString: string) => {
@@ -46,9 +43,7 @@ function Github() {
     <div className="flex flex-col items-center justify-center p-4 bg-gray-100 border border-gray-300 shadow-lg w-full mx-auto m-0 font-mono">
       <h1 className="text-gray-800 text-2xl font-semibold mb-6">GitHub Profile</h1>
 
-      {error ? (
-        <p className="text-red-600">{error}</p>
-      ) : gitData ? (
+      {gitData ? (
         <div className="flex flex-col items-center bg-white p-6 rounded-lg border border-gray-300 w-full max-w-2xl mb-8">
           <img
             src={gitData.avatar_url}
@@ -85,9 +80,7 @@ function Github() {
 
       <h2 className="text-gray-800 text-xl font-semibold mb-6">Repositories</h2>
 
-      {error ? (
-        <p className="text-red-600">{error}</p>
-      ) : repos.length > 0 ? (
+      {repos.length > 0 ? (
         <div className="w-full bg-white p-6 rounded-lg border border-gray-300 max-w-2xl">
           <ul className="list-disc pl-5">
             {repos.map(repo => (
