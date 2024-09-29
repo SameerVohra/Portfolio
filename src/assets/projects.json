@@ -97,6 +97,13 @@
             "gitLink": "https://github.com/SameerVohra/BudgetLens",
             "liveLink": "https://budgetlens.vercel.app/",
             "Tech Stack": "REACT, TYPESCRIPT, TAILWIND, EXPRESS, CHART.JS"
+        },
+        {
+            "name": "Searching Algorithm Visualizer",
+            "desc": "A Searching Algorithm Visualizer that demonstrates key searching algorithms like Linear Search and Binary Search using dynamic visual aids. The tool provides step-by-step visualization of how each algorithm traverses and finds elements in arrays, making it easier to understand their mechanics and time complexities. Ideal for students and developers to interactively learn and compare search efficiency.",
+            "gitLink": "https://github.com/SameerVohra/SearchinAlgorithmVisualizer",
+            "liveLink": "https://searchingalgovisualizer.vercel.app/",
+            "Tech Stack": "REACT, TYPESCRIPT, TAILWIND, DSA"
         }
     ]
 }
