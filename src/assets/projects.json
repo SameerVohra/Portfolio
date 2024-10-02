@@ -1,109 +1,123 @@
 {
-    "projects": [
-        {
-            "name": "LetsCode",
-            "desc": "A website with a functional C++ compiler that allows you to practice coding questions and submit your own, along with the ability to see the results in real time and a community chat option with a profanity filter",
-            "gitLink": "https://github.com/SameerVohra/LetsCode-new",
-            "liveLink": "https://lets-code-new.vercel.app/",
-            "Tech Stack": "REACT, JAVASCRIPT, MONGODB, EXPRESSJS, TAILWIND"
-        },
-        {
-            "name": "SketchSphere",
-            "desc": "A multiuser Sketchboarding application where users can join a project using ProjectId and ProjectKey",
-            "gitLink": "https://github.com/SameerVohra/SketchSphere",
-            "liveLink": "https://sketchsphere.vercel.app/",
-            "Tech Stack": "REACT, TYPESCRIPT, MONGODB, TAILWIND"
-        },
-        {
-            "name": "Stock Analysis Website",
-            "desc": "A stock analysis website I created that offers real-time data for equities listed on the BSE and NSE by using web scraping.",
-            "gitLink": "https://github.com/SameerVohra/StockMarketAnalysis",
-            "liveLink": "https://stock-market-analysis-gamma.vercel.app/",
-            "Tech Stack":"REACT, TYPESCRIPT, WEB SCRAPPING, TAILWIND"
-        },
-        {
-            "name": "Sorting Visualizer",
-            "desc": "A sorting visualizer that helps in visualizing sorting algorithms using bar graph and different colors. It has 5 different sorting algorithms: BUBBLE SORT, SELECTION SORT, INSERTION SORT, MERGE SORT, QUICK SORT",
-            "gitLink": "https://github.com/SameerVohra/sortingVisualizer",
-            "liveLink": "https://sorting-visualizer-lyart-delta.vercel.app/",
-            "Tech Stack": "REACT, DSA, TYPESCRIPT, TAILWIND"
-        },
-        {
-            "name": "Notes Taking App",
-            "desc": "A notes taking app with update and delete features. It also has pagination with a maximum number of notes per page being 6",
-            "gitLink": "https://github.com/SameerVohra/NotesTaking",
-            "liveLink": "https://noted-pi.vercel.app/",
-            "Tech Stack": "REACT, JAVASCRIPT, TAILWIND, MONGODB"
-        },
-        {
-            "name": "Morse Code Generator and Decoder",
-            "desc": "A website that uses REST API to generate and decode Morse code",
-            "gitLink": "https://github.com/SameerVohra/MorseCodeGeneratorAndDecoder",
-            "liveLink": "https://morse-code-generator-and-decoder-sigma.vercel.app/",
-            "Tech Stack": "REACT, TYPESCRIPT, RESTAPIs, TAILWIND"
-        },
-        {
-            "name": "Git User Search",
-            "desc": "A website that helps in fetching user data from GitHub's REST API and displaying the data",
-            "gitLink": "https://github.com/SameerVohra/GitUserSearch",
-            "liveLink": "https://gitsearchuser.vercel.app/",
-            "Tech Stack": "JAVASCRIPT, EXPRESSJS, RESTAPIs"
-        },
-        {
-            "name": "Librix",
-            "desc": "A library management system using QR-Code. It uses QR-Code for user verification, book issue, return, and all",
-            "gitLink": "https://github.com/SameerVohra/librix",
-            "liveLink": "https://librix.vercel.app/",
-            "Tech Stack": "REACT, MUI, TAILWIND, JAVASCRIPT"
-        },
-        {
-            "name": "OS Scheduling algorithms visualizer",
-            "desc": "The OS Scheduling Algorithms Visualizer showcases FCFS, SJF, SRJF, and RR scheduling techniques, allowing users to interactively explore and compare process management and performance.",
-            "gitLink": "https://github.com/SameerVohra/OS-Algorithms-visualizer",
-            "liveLink": "https://os-algorithms-visualizer.vercel.app/",
-            "Tech Stack": "REACT, TYPESCRIPT, OS, TAILWIND"
-        },
-        {
-            "name": "OS Scheduling algorithms visualizer using C++",
-            "desc": "Developed an OS process scheduling visualizer using C++ that illustrates and compares FCFS, SJF, and Round Robin algorithms. The tool offers detailed output to enhance understanding of process scheduling concepts and performance metrics.",
-            "gitLink": "https://github.com/SameerVohra/Os_Scheduling_Algo_Using_CPP",
-            "liveLink": "https://github.com/SameerVohra/Os_Scheduling_Algo_Using_CPP",
-            "Tech Stack": "C++, DSA, OS"
-        },
-        {
-            "name": "QuickNest",
-            "desc": "This simple To-Do app allows users to create tasks with defined priorities—low, normal, high, or critical. Tasks can be added, viewed, and categorized based on their urgency, providing an organized and intuitive way to manage daily responsibilities.",
-            "gitLink": "https://github.com/SameerVohra/QuickNest",
-            "liveLink": "https://quick-nest.vercel.app/",
-            "Tech Stack": "REACT, TYPESCRIPT, TAILWIND"
-        },
-        {
-            "name": "TrueVoices",
-            "desc": "TrueVoices is a SaaS platform that enables businesses to collect authentic customer reviews and showcase them on their websites in customizable formats. It helps companies build trust and credibility by displaying real user testimonials, boosting engagement and conversions.",
-            "gitLink": "https://github.com/SameerVohra/TrueVoices",
-            "liveLink": "https://truevoices.vercel.app/",
-            "Tech Stack": "REACT, TYPESCRIPT, TAILWIND, MUI"
-        },
-        {
-            "name": "MapRevo",
-            "desc": "MapRevo is a location-based review platform where users can explore, rate, and share feedback on various places. It features an interactive map for selecting locations and submitting reviews, allowing businesses and individuals to gather valuable insights and enhance decision-making.",
-            "gitLink": "https://github.com/SameerVohra/MapRevo",
-            "liveLink": "https://maprevo.vercel.app/",
-            "Tech Stack": "REACT, JAVASCRIPT, TAILWIND, EXPRESS"
-        },
-        {
-            "name": "BudgetLens",
-            "desc": "Budget Lens is a financial planning tool designed to help users manage their budgets efficiently. It allows individuals and businesses to track expenses, set financial goals, and gain insights through intuitive dashboards, making budgeting simple and effective.",
-            "gitLink": "https://github.com/SameerVohra/BudgetLens",
-            "liveLink": "https://budgetlens.vercel.app/",
-            "Tech Stack": "REACT, TYPESCRIPT, TAILWIND, EXPRESS, CHART.JS"
-        },
-        {
-            "name": "Searching Algorithm Visualizer",
-            "desc": "A Searching Algorithm Visualizer that demonstrates key searching algorithms like Linear Search and Binary Search using dynamic visual aids. The tool provides step-by-step visualization of how each algorithm traverses and finds elements in arrays, making it easier to understand their mechanics and time complexities. Ideal for students and developers to interactively learn and compare search efficiency.",
-            "gitLink": "https://github.com/SameerVohra/SearchinAlgorithmVisualizer",
-            "liveLink": "https://searchingalgovisualizer.vercel.app/",
-            "Tech Stack": "REACT, TYPESCRIPT, TAILWIND, DSA"
-        }
-    ]
+  "projects": [
+    {
+      "name": "LetsCode",
+      "desc": "A website with a functional C++ compiler that allows you to practice coding questions and submit your own, along with the ability to see the results in real time and a community chat option with a profanity filter",
+      "gitLink": "https://github.com/SameerVohra/LetsCode-new",
+      "liveLink": "https://lets-code-new.vercel.app/",
+      "Tech Stack": "REACT, JAVASCRIPT, MONGODB, EXPRESSJS, TAILWIND"
+    },
+    {
+      "name": "SketchSphere",
+      "desc": "A multiuser Sketchboarding application where users can join a project using ProjectId and ProjectKey",
+      "gitLink": "https://github.com/SameerVohra/SketchSphere",
+      "liveLink": "https://sketchsphere.vercel.app/",
+      "Tech Stack": "REACT, TYPESCRIPT, MONGODB, TAILWIND"
+    },
+    {
+      "name": "Stock Analysis Website",
+      "desc": "A stock analysis website I created that offers real-time data for equities listed on the BSE and NSE by using web scraping.",
+      "gitLink": "https://github.com/SameerVohra/StockMarketAnalysis",
+      "liveLink": "https://stock-market-analysis-gamma.vercel.app/",
+      "Tech Stack": "REACT, TYPESCRIPT, WEB SCRAPPING, TAILWIND"
+    },
+    {
+      "name": "Sorting Visualizer",
+      "desc": "A sorting visualizer that helps in visualizing sorting algorithms using bar graph and different colors. It has 5 different sorting algorithms: BUBBLE SORT, SELECTION SORT, INSERTION SORT, MERGE SORT, QUICK SORT",
+      "gitLink": "https://github.com/SameerVohra/sortingVisualizer",
+      "liveLink": "https://sorting-visualizer-lyart-delta.vercel.app/",
+      "Tech Stack": "REACT, DSA, TYPESCRIPT, TAILWIND"
+    },
+    {
+      "name": "Notes Taking App",
+      "desc": "A notes taking app with update and delete features. It also has pagination with a maximum number of notes per page being 6",
+      "gitLink": "https://github.com/SameerVohra/NotesTaking",
+      "liveLink": "https://noted-pi.vercel.app/",
+      "Tech Stack": "REACT, JAVASCRIPT, TAILWIND, MONGODB"
+    },
+    {
+      "name": "Morse Code Generator and Decoder",
+      "desc": "A website that uses REST API to generate and decode Morse code",
+      "gitLink": "https://github.com/SameerVohra/MorseCodeGeneratorAndDecoder",
+      "liveLink": "https://morse-code-generator-and-decoder-sigma.vercel.app/",
+      "Tech Stack": "REACT, TYPESCRIPT, RESTAPIs, TAILWIND"
+    },
+    {
+      "name": "Git User Search",
+      "desc": "A website that helps in fetching user data from GitHub's REST API and displaying the data",
+      "gitLink": "https://github.com/SameerVohra/GitUserSearch",
+      "liveLink": "https://gitsearchuser.vercel.app/",
+      "Tech Stack": "JAVASCRIPT, EXPRESSJS, RESTAPIs"
+    },
+    {
+      "name": "Librix",
+      "desc": "A library management system using QR-Code. It uses QR-Code for user verification, book issue, return, and all",
+      "gitLink": "https://github.com/SameerVohra/librix",
+      "liveLink": "https://librix.vercel.app/",
+      "Tech Stack": "REACT, MUI, TAILWIND, JAVASCRIPT"
+    },
+    {
+      "name": "OS Scheduling algorithms visualizer",
+      "desc": "The OS Scheduling Algorithms Visualizer showcases FCFS, SJF, SRJF, and RR scheduling techniques, allowing users to interactively explore and compare process management and performance.",
+      "gitLink": "https://github.com/SameerVohra/OS-Algorithms-visualizer",
+      "liveLink": "https://os-algorithms-visualizer.vercel.app/",
+      "Tech Stack": "REACT, TYPESCRIPT, OS, TAILWIND"
+    },
+    {
+      "name": "OS Scheduling algorithms visualizer using C++",
+      "desc": "Developed an OS process scheduling visualizer using C++ that illustrates and compares FCFS, SJF, and Round Robin algorithms. The tool offers detailed output to enhance understanding of process scheduling concepts and performance metrics.",
+      "gitLink": "https://github.com/SameerVohra/Os_Scheduling_Algo_Using_CPP",
+      "liveLink": "https://github.com/SameerVohra/Os_Scheduling_Algo_Using_CPP",
+      "Tech Stack": "C++, DSA, OS"
+    },
+    {
+      "name": "QuickNest",
+      "desc": "This simple To-Do app allows users to create tasks with defined priorities—low, normal, high, or critical. Tasks can be added, viewed, and categorized based on their urgency, providing an organized and intuitive way to manage daily responsibilities.",
+      "gitLink": "https://github.com/SameerVohra/QuickNest",
+      "liveLink": "https://quick-nest.vercel.app/",
+      "Tech Stack": "REACT, TYPESCRIPT, TAILWIND"
+    },
+    {
+      "name": "TrueVoices",
+      "desc": "TrueVoices is a SaaS platform that enables businesses to collect authentic customer reviews and showcase them on their websites in customizable formats. It helps companies build trust and credibility by displaying real user testimonials, boosting engagement and conversions.",
+      "gitLink": "https://github.com/SameerVohra/TrueVoices",
+      "liveLink": "https://truevoices.vercel.app/",
+      "Tech Stack": "REACT, TYPESCRIPT, TAILWIND, MUI"
+    },
+    {
+      "name": "MapRevo",
+      "desc": "MapRevo is a location-based review platform where users can explore, rate, and share feedback on various places. It features an interactive map for selecting locations and submitting reviews, allowing businesses and individuals to gather valuable insights and enhance decision-making.",
+      "gitLink": "https://github.com/SameerVohra/MapRevo",
+      "liveLink": "https://maprevo.vercel.app/",
+      "Tech Stack": "REACT, JAVASCRIPT, TAILWIND, EXPRESS"
+    },
+    {
+      "name": "BudgetLens",
+      "desc": "Budget Lens is a financial planning tool designed to help users manage their budgets efficiently. It allows individuals and businesses to track expenses, set financial goals, and gain insights through intuitive dashboards, making budgeting simple and effective.",
+      "gitLink": "https://github.com/SameerVohra/BudgetLens",
+      "liveLink": "https://budgetlens.vercel.app/",
+      "Tech Stack": "REACT, TYPESCRIPT, TAILWIND, EXPRESS, CHART.JS"
+    },
+    {
+      "name": "Searching Algorithm Visualizer",
+      "desc": "A Searching Algorithm Visualizer that demonstrates key searching algorithms like Linear Search and Binary Search using dynamic visual aids. The tool provides step-by-step visualization of how each algorithm traverses and finds elements in arrays, making it easier to understand their mechanics and time complexities. Ideal for students and developers to interactively learn and compare search efficiency.",
+      "gitLink": "https://github.com/SameerVohra/SearchinAlgorithmVisualizer",
+      "liveLink": "https://searchingalgovisualizer.vercel.app/",
+      "Tech Stack": "REACT, TYPESCRIPT, TAILWIND, DSA"
+    },
+    {
+      "name": "Randomizer",
+      "desc": "Made an NPM package to randomize the given string, it also has error handling to prevent any issue in the users code",
+      "gitLink": "https://github.com/SameerVohra/RandomizerPackage",
+      "liveLink": "https://www.npmjs.com/package/randomizersameer",
+      "Tech Stack": "JAVASCRIPT, NODE, NPM"
+    },
+    {
+      "name": "Password Encrypt/Decrypt",
+      "desc": "An NPM package to encrypt a password using a secret key and salt it uses base64 encoding and some different operations to secure your password",
+      "gitLink": "https://github.com/SameerVohra/PasswordEncrypt-Decrypt",
+      "liveLink": "https://www.npmjs.com/package/password-encrypt-decrypt",
+      "Tech Stack": "JAVASCRIPT, NODE, NPM"
+    }
+  ]
 }
