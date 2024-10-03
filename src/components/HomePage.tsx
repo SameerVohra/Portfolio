@@ -5,7 +5,7 @@ function HomePage() {
   const navigate = useNavigate();
   return (
     <>
-      <div className='min-h-screen flex flex-col justify-center items-center p-6 md:p-11'>
+      <div className='min-h-screen flex flex-col justify-center items-start p-6 md:p-11'>
         <h1 className='text-white text-4xl sm:text-5xl md:text-7xl font-bold font-mono'>
           Sameer Vohra
         </h1>
