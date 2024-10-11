@@ -118,6 +118,35 @@
       "gitLink": "https://github.com/SameerVohra/PasswordEncrypt-Decrypt",
       "liveLink": "https://www.npmjs.com/package/password-encrypt-decrypt",
       "Tech Stack": "JAVASCRIPT, NODE, NPM"
+    },
+    {
+      "name": "Validator",
+      "desc": "A lightweight package for validating email addresses and passwords based on customizable rules. This package provides utility functions to check for a valid email format and validate password strength based on specified requirements.",
+      "gitLink": "https://github.com/SameerVohra/Validator",
+      "liveLink": "https://www.npmjs.com/package/validator-sameer",
+      "Tech Stack": "JAVASCRIPT, NODE, NPM"
+    },
+    {
+      "name": "Speed Stroke",
+      "desc": "SpeedStroke is a sleek and fast typing speed testing website designed to help users improve their typing skills. It offers timed tests, real-time feedback, and detailed performance analysis to track accuracy and speed, making it perfect for anyone looking to enhance their typing efficiency.",
+      "gitLink": "https://github.com/SameerVohra/SpeedStroke",
+      "liveLink": "https://speed-stroke.vercel.app/",
+      "Tech Stack": "REACT, JAVASCRIPT, TAILWIND"
+    },
+    {
+      "name": "Hangman in C++",
+      "desc": "Hangman in C++ is a word-guessing game where players guess letters to reveal a hidden word, with limited attempts before the game ends. It demonstrates basic C++ concepts like loops and conditionals.",
+      "gitLink": "https://github.com/SameerVohra/Hangman_Cpp",
+      "liveLink": "https://github.com/SameerVohra/Hangman_Cpp",
+      "Tech Stack": "DSA, C++"
+    },
+    {
+      "name": "Hangman",
+      "desc": "A classic Hangman game built with React and styled with Tailwind CSS. Players guess letters to uncover a hidden word, with visual updates to the hangman figure based on incorrect guesses and options to restart the game.",
+      "gitLink": "https://github.com/SameerVohra/Hangman",
+      "liveLink": "https://hangman-omega-indol.vercel.app/",
+      "Tech Stack": "JAVASCRIPT, REACT, TAILWIND CSS"
+
     }
   ]
 }
