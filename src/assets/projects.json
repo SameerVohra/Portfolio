@@ -146,7 +146,13 @@
       "gitLink": "https://github.com/SameerVohra/Hangman",
       "liveLink": "https://hangman-omega-indol.vercel.app/",
       "Tech Stack": "JAVASCRIPT, REACT, TAILWIND CSS"
-
+    },
+    {
+      "name": "TODO in C++",
+      "desc": "A simple C++ To-Do app that allows users to add, delete, and mark tasks as completed. The app provides an interactive console interface to manage tasks, helping users keep track of their to-do list efficiently.",
+      "gitLink": "https://github.com/SameerVohra/TODO-CPP.git",
+      "liveLink": "https://github.com/SameerVohra/TODO-CPP.git",
+      "Tech Stack": "DSA, C++"
     }
   ]
 }
