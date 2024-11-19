@@ -153,6 +153,13 @@
       "gitLink": "https://github.com/SameerVohra/TODO-CPP.git",
       "liveLink": "https://github.com/SameerVohra/TODO-CPP.git",
       "Tech Stack": "DSA, C++"
+    },
+    {
+      "name": "Code Meet",
+      "desc": "Built a real-time collaborative code editor supporting C++ and Python, enabling multiple users to code and compile simultaneously. Utilized React, Monaco Editor, and WebSockets for seamless collaboration and user tracking. Ideal for teams and educators seeking an interactive online coding environment.",
+      "gitLink": "https://github.com/SameerVohra/CodeMeet",
+      "liveLink": "https://codemeet-nine.vercel.app/",
+      "Tech Stack": "MERN Stack, JAVASCRIPT, Socket.io, TAILWIND CSS"
     }
   ]
 }
