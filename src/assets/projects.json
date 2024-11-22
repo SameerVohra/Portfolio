@@ -160,6 +160,13 @@
       "gitLink": "https://github.com/SameerVohra/CodeMeet",
       "liveLink": "https://codemeet-nine.vercel.app/",
       "Tech Stack": "MERN Stack, JAVASCRIPT, Socket.io, TAILWIND CSS"
+    },
+    {
+      "name": "Terminal Portfolio",
+      "desc": "Made a new Portfolio website, that is like a terminal.",
+      "gitLink": "https://github.com/SameerVohra/TerminalPortfolio/",
+      "liveLink": "https://sameervohra-terminal.vercel.app/",
+      "Tech Stack": "REACT, TYPESCRIPT, TAILWIND"
     }
   ]
 }
